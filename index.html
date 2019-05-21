@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>Mat Sachs</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <!-- <script src="assets/javascripts/site.js"></script> -->
+  <link rel="stylesheet" href="assets/stylesheets/style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <header>
+    <a id="resume-btn" href="assets/files/resume.pdf" target="_blank">r&#233;sum&#233;</a>
+  </header>
+  <main>
+    <section id="intro" class="flexbox horz-center bg-black white">
+      <img id="avatar" class="circle" src="assets/images/portrait.jpg"
+      alt="photo of Mat Sachs">
+      <h3 id="name">Mat Sachs</h3>
+      <p>I'm a full-stack software engineer in Portland, OR and Co-creator of
+      the Mashr framework.</p>
+      <p>I have experience in web application development, cloud platforms, and
+      container based deployment. I have written open source applications and
+      personal projects using Node/JavaScript, Ruby/Rails, Docker, React,
+      linux, SQL/databases, and more.</p>
+
+    </section>
+    <section id="mashr" class="flexbox horz-center">
+      <div id="mashr-title-container" class="flexbox">
+        <h2><img id="mashr-logo" src="assets/images/mashr_logo.png" alt="mashr logo" /></h2>
+      </div>
+      <div id="mashr-info-container" class="flexbox">
+        <div>
+          <img id="deploy-command-gif" src="assets/images/mashr_deploy.gif" alt="A gif showing the mashr deploy command" />
+        </div>
+        <div class="flexbox horz-center">
+          <p>Mashr is an open source data pipeline orchestration and monitoring framework for small applications.</p>
+          <p>Mashr simplifies the process of taking your data from disparate sources and putting them into a single place so that you can use that data. It is optimized for data pipeline best practices including monitoring for each step of your data pipeline along with archiving and backup in case of failover. Mashr is built with Node.js, provides an easy-to-use CLI, and uses Docker to host Embulk on GCE Instances on Google Cloud Platform (GCP).</p>
+          <a id="mashr-repo-btn" class="btn" target="_blank" href="https://mashr-framework.github.io/">READ THE MASHR CASE STUDY</a>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="flexbox horz-center">
+        <h2>Other projects</h2>
+        <ul class="flexbox vert-center">
+          <li>
+            <img src="assets/images/postit.png" alt="Screenshot of postit application" />
+            <h4>Postit</h4>
+            <p>A Reddit-like application built with Ruby on Rails and PostgreSQL. Allows users to authenticate, create posts, comment on posts, add categories, upvote or downvote posts, and edit profile information.</p>
+          </li>
+          <li>
+            <img src="assets/images/airlineApp.png" alt="Screenshot of airline routes viewer application" />
+            <h4>Airline Routes Viewer</h4>
+            <p>A React application that allows users to view airline routes and filter them by airline or airport. Bootstrapped with Create React App.</p>
+          </li>
+          <li>
+            <img src="assets/images/todos.png" alt="Screenshot of todos application" />
+            <h4>Task Management Application</h4>
+            <p>A responsive application for task management with Ruby and Sinatra backend and JavaScript(ES6), JQuery, and Handlebars.js frontend. Users perform CRUD operations with tasks.</p>
+          </li>
+        </ul>
+      </section>
+    <section id="contact" class="flexbox horz-center">
+      <h3>connect with me</h3>
+      <h4><a href="mailto:mat@matsachs.com">mat@matsachs.com</a></h4>
+      <ul class="flexbox vert-center">
+        <li>
+          <a href="/assets/files/resume.pdf" target="_blank">
+            <img class="icon" src="assets/icons/resume.svg" alt="link to Mat Sachs resume">
+          </a>
+        </li>
+ <!--        <li>
+          <a href="https://medium.com/@matsachs" target="_blank">
+            <img class="icon" src="assets/icons/medium.svg" alt="link to Mat Sachs Medium page">
+          </a>
+        </li> -->
+        <li>
+          <a href="https://github.com/matochondrion" target="_blank">
+            <img class="icon" src="assets/icons/git_hub.svg" alt="link to Mat Sachs GitHub">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/matsachs/" target="_blank">
+            <img class="icon" src="assets/icons/linked_in.svg" alt="link to Mat Sachs LinkedIn">
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
