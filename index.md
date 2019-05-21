@@ -12,6 +12,9 @@ pipeline to Google Cloud Platform that extracts data from multiple sources into
 a single destination.
 
 ## Recent Project — MASHR
+![mashr deploy command]()
+
+
 Mashr simplifies the process of taking your data from disparate sources and
 putting them into a single place so that you can use that data. It is optimized
 for data pipeline best practices including monitoring for each step of your
