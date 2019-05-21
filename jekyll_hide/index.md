@@ -6,13 +6,16 @@ layout: page
 ---
 Hello, I'm Mat
 
+I'm a full-stack software engineer in Portland, OR; proficient in
+Node/JavaScript, Ruby/Rails, Docker, React, databases, and cloud services.
+
 I am a co-creator of Mashr—an open source orchestration and monitoring
 framework for small applications. With an easy-to-use CLI, Mashr deploys a data
-pipeline to Google Cloud Platform that extracts data from multiple sources into
-a single destination.
+pipeline to Google Cloud Platform that extracts data from external sources into
+a single destination database.
 
 ## Recent Project — MASHR
-![mashr deploy command]()
+![mashr deploy command](assets/images/mashr_deploy.gif)
 
 
 Mashr simplifies the process of taking your data from disparate sources and
