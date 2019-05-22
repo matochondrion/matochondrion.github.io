@@ -7,6 +7,8 @@
 /* content */
 /* media_queries */
 /* modular_css */
+/* highlight color: #ef431b */
+/* hover color: #a7280c */
 
 /* ---------------------------------
 
@@ -55,7 +57,7 @@ html {
 }
 
 h1 {
-  color: #86c232;
+  color: #ef431b;
   font-family: 'Roboto', sans-serif;
   font-size: 3rem;
   text-align: center;
@@ -69,7 +71,7 @@ h2 {
 }
 
 h3, #resume-btn {
-  color: #86c232;
+  color: #ef431b;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
@@ -77,7 +79,7 @@ h3, #resume-btn {
 }
 
 #resume-btn:hover {
-  color: #ffa466;
+  color: #a7280c;
 }
 
 header {
@@ -144,8 +146,12 @@ p {
 }
 
 a {
-  color: #000;
+  color: #ef431b;
   text-decoration: none;
+}
+
+a:hover {
+  color: #a7280c 
 }
 
 li {
@@ -177,8 +183,8 @@ footer {
 }
 
 .btn {
-  background-color: #86c232;
-  border: solid 1px #86c232;
+  background-color: #ef431b;
+  border: solid 1px #ef431b;
   border-radius: 5px;
   color: #fff;
   font-family: 'Roboto', sans-serif;
@@ -186,10 +192,13 @@ footer {
   padding: 10px;
   text-align: center;
 }
+.btn:hover {
+  color: white;
+}
 
 .icon {
-  background-color: #86c232;
-  border: solid 1px #86c232;
+  background-color: #ef431b;
+  border: solid 1px #ef431b;
   border-radius: 25px;
   margin: 2%;
   min-width: 34px;
@@ -199,8 +208,8 @@ footer {
 
 .btn:hover,
 .icon:hover {
-  background-color: #ffa466;
-  border-color: #ffa466;
+  background-color: #a7280c;
+  border-color: #a7280c;
 }
 
 .horz-center {
@@ -308,6 +317,29 @@ footer {
               contact
 
 ------------------------------------ */
+#resume-logo {
+  cursor: pointer;
+  width: 35px;
+  position: fixed;
+  top: 5px;
+  left: 5px;
+}
+
+#github-logo {
+  cursor: pointer;
+  width: 35px;
+  position: fixed;
+  top: 55px;
+  left: 5px;
+}
+
+#linkedin-logo {
+  cursor: pointer;
+  width: 35px;
+  position: fixed;
+  top: 105px;
+  left: 5px;
+}
 
 #contact {
   padding-top: 50px;
@@ -339,7 +371,7 @@ footer {
   background-color: white;
 }
 .bg-black {
-  background-color: #222629;
+  background-color: #19181a;
 }
 .white {
   color: white;

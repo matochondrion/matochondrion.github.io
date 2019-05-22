@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- START: Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-83603700-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -10,6 +10,7 @@
 
     gtag('config', 'UA-83603700-1');
   </script>
+<!-- END: Global site tag (gtag.js) - Google Analytics -->
 
   <title>Mat Sachs</title>
   <meta charset="utf-8"/>
@@ -18,31 +19,62 @@
   <!-- <script src="assets/javascripts/site.js"></script> -->
   <link rel="stylesheet" href="assets/stylesheets/style.css">
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+  <meta name="title" property="og:title" content="Mat Sachs" />
+  <meta name="description" property="og:description" content="I'm a
+  full-stack software engineer in Portland, OR who has built numerous
+  applications with Node, React, Ruby on Rails, Docker, PostgresSQL & more." />
+  <meta name="type" property="og:type" content="website" />
+  <meta name="url" property="og:url"
+  content="https://matochondrion.github.io/" />
+  <meta name="image" property="og:image"
+  content="./assets/images/favicons/android-chrome-512x512.png" />
+  <meta name="author" content="Mat Sachs" />
 </head>
+
 <body>
   <header>
-    <a id="resume-btn" href="assets/files/resume_off.pdf" target="_blank">r&#233;sum&#233;</a>
+
+    <div class="logo-links">
+      <a href="https://github.com/matochondrion" target="_blank">
+        <img class="icon" src="assets/icons/git_hub.svg" alt="github logo" id="github-logo">
+      </a>
+      <a href="public/assets/resume-off.pdf" target="_blank">
+        <img class="icon" src="assets/icons/resume.svg" alt="link to Mat Sachs resume" id="resume-logo">
+      </a>
+      <a href="https://www.linkedin.com/in/matsachs" target="_blank">
+        <img class="icon" src="assets/icons/linked_in.svg" alt="link to Mat Sachs LinkedIn" id="linkedin-logo">
+      </a>
+    </div>
+
   </header>
   <main>
     <section id="intro" class="flexbox horz-center bg-black white">
       <img id="avatar" class="circle" src="assets/images/portrait.jpg"
       alt="photo of Mat Sachs">
+
       <h3 id="name">Mat Sachs</h3>
-      <p>I'm a full-stack software engineer in Portland, OR and Co-creator of
-      the Mashr framework.</p>
-      <p>I have experience in web application development, cloud platforms, and
-      container based deployment. I have written open source applications and
-      personal projects using Node/JavaScript, Ruby/Rails, Docker, React,
-      linux, SQL/databases, and more.</p>
+
+      <p>I'm a full-stack software engineer in Portland, OR who has built
+      numerous applications with Node, React, Ruby on Rails, Docker,
+      PostgresSQL & more.</p>
+
+      <p>I'm also a co-creator of the
+      <a href="https://mashr-framework.github.io/" target="_blank">Mashr</a>
+      framework.</p>
 
     </section>
     <section id="mashr" class="flexbox horz-center">
       <div id="mashr-title-container" class="flexbox">
-        <h2><img id="mashr-logo" src="assets/images/mashr_logo.png" alt="mashr logo" /></h2>
+        <h2>
+          <img id="mashr-logo" src="assets/images/mashr_logo.png" alt="mashr
+          logo" />
+        </h2>
       </div>
       <div id="mashr-info-container" class="flexbox">
         <div>
-          <img id="deploy-command-gif" src="assets/images/mashr_deploy.gif" alt="A gif showing the mashr deploy command" />
+          <img id="deploy-command-gif" src="assets/images/mashr_deploy.gif"
+          alt="A gif showing the mashr deploy command" />
         </div>
         <div class="flexbox horz-center">
           <p>Mashr is an open source data pipeline orchestration and monitoring
@@ -54,7 +86,9 @@
           and backup in case of failover. Mashr is built with Node.js, provides
           an easy-to-use CLI, and uses Docker to host Embulk on GCE Instances
           on Google Cloud Platform (GCP).</p>
-          <a id="mashr-repo-btn" class="btn" target="_blank" href="https://mashr-framework.github.io/">READ THE MASHR CASE STUDY</a>
+          <a id="mashr-repo-btn" class="btn" target="_blank"
+            href="https://mashr-framework.github.io/">READ THE MASHR CASE
+            STUDY</a>
         </div>
       </div>
     </section>
