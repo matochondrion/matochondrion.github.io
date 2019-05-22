@@ -1,5 +1,7 @@
-Text
-M
+https://favicon.io/favicon-generator/?t=Mat&ff=Itim&fs=65&fc=%23ef431b&b=rounded&bc=%23000
+
+text
+Mat
 
 Background
 rounded
@@ -8,10 +10,10 @@ Font Family
 Itim
 
 Font Size
-110
+65
 
 Font Color
-#86c232
+#ef431b
 
 Background Color
-#222629
+#000
