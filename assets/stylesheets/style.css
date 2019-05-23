@@ -1,5 +1,5 @@
 @import url('whitespace-reset.css');
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,700i&display=swap');
 
 /* CONTENTS */
 /* general */
@@ -74,8 +74,12 @@ h3, #resume-btn {
   color: #ef431b;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 900;
   margin: 25px 0;
+}
+
+strong {
+  font-weight: 900;
 }
 
 #resume-btn:hover {
