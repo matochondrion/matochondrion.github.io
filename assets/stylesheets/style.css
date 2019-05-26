@@ -345,13 +345,20 @@ footer {
   left: 5px;
 }
 
-#mashr-logo-link {
+#mashr-logo-container {
   cursor: pointer;
   width: 35px;
   height: 35px;
   position: fixed;
   top: 155px;
   left: 5px;
+}
+#mashr-logo-sticky {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  top: 188px;
+  left: 37px;
 }
 
 #contact {
