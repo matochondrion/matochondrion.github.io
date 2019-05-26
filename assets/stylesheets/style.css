@@ -354,11 +354,11 @@ footer {
   left: 5px;
 }
 #mashr-logo-sticky {
-  position: fixed;
+  position: relative;
   width: 30px;
   height: 30px;
-  top: 188px;
-  left: 37px;
+  top: 3px;
+  left: 1px;
 }
 
 #contact {
